@@ -1,0 +1,9 @@
+
+o
+java:S1192,"MDefine a constant instead of duplicating this literal "El elemento " 4 times.(Ä¥Üáşÿÿÿÿ8°üÃÎ•3
+m	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÈƒñ8°üÃÎ•3
+Z	java:S106,"9Replace this use of System.out or System.err by a logger.(Ä¥Üáşÿÿÿÿ8ÛüÃÎ•3
+T	java:S106."9Replace this use of System.out or System.err by a logger.(±¤Év8ÛüÃÎ•3
+Z	java:S1064"9Replace this use of System.out or System.err by a logger.(·Ïİüÿÿÿÿ8éüÃÎ•3
+T	java:S1066"9Replace this use of System.out or System.err by a logger.(ğ÷½K8ìüÃÎ•3
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(¯¬ĞÂşÿÿÿÿ8ìüÃÎ•3

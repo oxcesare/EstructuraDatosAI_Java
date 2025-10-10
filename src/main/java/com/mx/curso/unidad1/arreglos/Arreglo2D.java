@@ -33,7 +33,5 @@ public class Arreglo2D {
         }
         Arrays.sort(sum);
         System.out.println(sum[15]);
-
-
     }
 }
