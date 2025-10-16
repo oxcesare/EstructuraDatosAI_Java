@@ -48,7 +48,7 @@ public class GrafoAdyacencia<T> {
     public void imprimirGrafo() {
         System.out.println("--- Estructura del Grafo (Lista de Adyacencia) ---");
         for (T vertice : adyacencia.keySet()) {
-            System.out.print("Vértice " + vertice + " es vecino de: ");
+            System.out.print("Vertice " + vertice + " es vecino de: ");
             System.out.println(adyacencia.get(vertice));
         }
     }

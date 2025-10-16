@@ -11,6 +11,7 @@ public class Burbuja {
                 // Si el elemento actual es mayor que el siguiente, se intercambian
                 if (arr[j] > arr[j + 1]) {
                     // Intercambio de elementos
+
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
@@ -20,7 +21,7 @@ public class Burbuja {
     }
 
     public static void main(String[] args) {
-        int[] datos = {7, 9, 10, 9, 8};
+        int[] datos = {90,3,1,2,6,7,9,1};
 
         System.out.println("Arreglo original:");
         for (int dato : datos) {

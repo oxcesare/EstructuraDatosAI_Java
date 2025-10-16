@@ -8,8 +8,7 @@ public class Temperaturas {
         Double[][] temperaturas = {
                 {121.00, 99.00, 11.87},
                 {111.00, 10.00, 12.87},
-                {151.00, 29.00, 13.87},
-                {131.00, 30.00, 14.87}
+                {151.00, 29.00, 13.87}
         };
 
         //Imprimir la matriz
@@ -23,8 +22,7 @@ public class Temperaturas {
         //Acceder a un elemento especifico
         System.out.println("Elemento en la posicion [2][1]: " + temperaturas[2][1]);
         temperaturas[2][1] = 45.90;
-        System.out.println("Elemento en la posicion [2][1]: " + temperaturas[2][1]);
-
+        System.out.println("Elemento actualizado en la posicion [2][1]: " + temperaturas[2][1]);
 
     }
 }
