@@ -1,4 +1,4 @@
-package com.mx.curso.unidad2.ordenamiento;
+package com.mx.curso.unidad2.ordenamiento.seleccion;
 
 import java.util.Arrays;
 

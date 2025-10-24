@@ -1,6 +1,6 @@
 package com.mx.curso.unidad2.ordenamiento.aplicacionesAI;
 
-import com.mx.curso.unidad2.ordenamiento.Burbuja;
+import com.mx.curso.unidad2.ordenamiento.burbuja.practica1.Burbuja;
 
 public class AplicacionAIBurbuja {
 

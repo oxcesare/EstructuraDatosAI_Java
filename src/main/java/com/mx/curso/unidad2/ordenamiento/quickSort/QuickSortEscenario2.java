@@ -1,6 +1,6 @@
-package com.mx.curso.unidad2.ordenamiento;
+package com.mx.curso.unidad2.ordenamiento.quickSort;
 
-public class QuickSort {
+public class QuickSortEscenario2 {
 
     // Método principal que inicia el proceso de ordenamiento
     public static void quickSort(int[] arr) {
@@ -47,7 +47,7 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        int[] datos ={8, 10, 7, 4, 2, 1, 0};
+        int[] datos ={15,4,5,15,3,2,18,20,12,3,18,18,17,10,18};
 
         System.out.println("Arreglo original:");
         for (int dato : datos) {
@@ -61,5 +61,5 @@ public class QuickSort {
             System.out.print(dato + " ");
         }
     }
-}
 
+}

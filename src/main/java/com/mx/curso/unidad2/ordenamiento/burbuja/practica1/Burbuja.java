@@ -1,4 +1,4 @@
-package com.mx.curso.unidad2.ordenamiento;
+package com.mx.curso.unidad2.ordenamiento.burbuja.practica1;
 
 public class Burbuja {
 
@@ -11,7 +11,7 @@ public class Burbuja {
                 // Si el elemento actual es mayor que el siguiente, se intercambian
                 if (arr[j] > arr[j + 1]) {
                     // Intercambio de elementos
-
+                    System.out.println("Intercambio");
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
@@ -21,7 +21,7 @@ public class Burbuja {
     }
 
     public static void main(String[] args) {
-        int[] datos = {90,3,1,2,6,7,9,1};
+        int[] datos = {12,14,15,1};
 
         System.out.println("Arreglo original:");
         for (int dato : datos) {
