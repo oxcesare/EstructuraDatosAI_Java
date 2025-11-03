@@ -18,7 +18,7 @@ public class Inserccion {
     }
 
     public static void main(String[] args) {
-        int[] datos = {64, 34, 25, 12, 22, 11, 90};
+        int[] datos = {90,10,1};
 
         System.out.println("Arreglo original:");
         System.out.println(Arrays.toString(datos));

@@ -1,4 +1,4 @@
-package com.mx.curso.unidad2;
+package com.mx.curso.unidad2.recursividad;
 
 public class FibonacciRecursivo {
 
@@ -15,7 +15,7 @@ public class FibonacciRecursivo {
 
     public static void main(String[] args) {
         int numero = 10;
-        System.out.println("Serie de Fibonacci hasta la posición " + numero + ":");
+        System.out.println("Serie de Fibonacci hasta la posicion " + numero + ":");
         for (int i = 0; i < numero; i++) {
             System.out.print(fibonacci(i) + " ");
         }

@@ -1,4 +1,4 @@
-package com.mx.curso.unidad2;
+package com.mx.curso.unidad2.recursividad;
 
 
 public class FactorialRecursivo {

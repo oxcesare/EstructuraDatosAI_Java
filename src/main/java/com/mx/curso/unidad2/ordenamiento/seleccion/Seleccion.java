@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class Seleccion {
 
     public static void selectionSort(int[] arr) {
+
         int n = arr.length;
 
         // Un bucle para mover el límite de la sublista ordenada
@@ -25,7 +26,7 @@ public class Seleccion {
     }
 
     public static void main(String[] args) {
-        int[] datos = {64, 34, 25, 12, 22, 11, 90};
+        int[] datos = {64, 34, };
 
         System.out.println("Arreglo original:");
         System.out.println(Arrays.toString(datos));

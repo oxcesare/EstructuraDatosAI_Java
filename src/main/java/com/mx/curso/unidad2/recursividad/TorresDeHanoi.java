@@ -1,4 +1,4 @@
-package com.mx.curso.unidad2;
+package com.mx.curso.unidad2.recursividad;
 
 public class TorresDeHanoi {
 
@@ -22,12 +22,13 @@ public class TorresDeHanoi {
     }
 
     public static void main(String[] args) {
-        int numeroDeDiscos = 3; // Número de discos
+        int numeroDeDiscos = 5; // Número de discos
         char posteOrigen = 'A';  // Poste de origen
         char posteAuxiliar = 'B'; // Poste auxiliar
         char posteDestino = 'C';  // Poste de destino
 
         System.out.println("Secuencia de movimientos para " + numeroDeDiscos + " discos:");
+
         resolverTorres(numeroDeDiscos, posteOrigen, posteDestino, posteAuxiliar);
     }
 }

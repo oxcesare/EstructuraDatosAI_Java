@@ -1,5 +1,7 @@
 package com.mx.curso.unidad2.ordenamiento.burbuja.practica1;
 
+import com.fasterxml.jackson.databind.JsonSerializable;
+
 public class Burbuja {
 
     public static void bubbleSort(int[] arr) {
@@ -21,7 +23,7 @@ public class Burbuja {
     }
 
     public static void main(String[] args) {
-        int[] datos = {12,14,15,1};
+        int[] datos = {12,13,1,2,3,4,5,6,7,8,9,10,11};
 
         System.out.println("Arreglo original:");
         for (int dato : datos) {
