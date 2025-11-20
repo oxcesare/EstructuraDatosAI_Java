@@ -26,7 +26,7 @@ public class Seleccion {
     }
 
     public static void main(String[] args) {
-        int[] datos = {64, 34, };
+        int[] datos = {8,2,4,1,3};
 
         System.out.println("Arreglo original:");
         System.out.println(Arrays.toString(datos));

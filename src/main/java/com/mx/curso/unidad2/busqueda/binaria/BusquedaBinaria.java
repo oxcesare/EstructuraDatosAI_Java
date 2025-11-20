@@ -2,13 +2,6 @@ package com.mx.curso.unidad2.busqueda.binaria;
 
 public class BusquedaBinaria {
 
-    /**
-     * Implementa el algoritmo de búsqueda binaria.
-     *
-     * @param arr El arreglo ordenado en el que se buscará el elemento.
-     * @param x   El elemento que se desea encontrar.
-     * @return El índice del elemento si se encuentra, de lo contrario, -1.
-     */
     public static int busquedaBinaria(int[] arr, int x) {
         int inicio = 0;
         int fin = arr.length - 1;

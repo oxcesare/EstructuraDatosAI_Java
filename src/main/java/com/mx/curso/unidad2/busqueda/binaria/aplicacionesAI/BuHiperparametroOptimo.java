@@ -2,12 +2,13 @@ package com.mx.curso.unidad2.busqueda.binaria.aplicacionesAI;
 
 import com.mx.curso.unidad2.busqueda.binaria.BusquedaBinaria;
 import com.mx.curso.unidad2.ordenamiento.burbuja.practica1.Burbuja;
+import com.mx.curso.unidad2.ordenamiento.mezcla.Mezcla;
 
-public class BusquedaHiperparametro {
+public class BuHiperparametroOptimo {
 
     public static void main(String[] args) {
 
-        int[] datos_ordenados = {1, 2, 3, 4, 5, 6, 6, 7, 1, 2, 4, 7,
+        int[] datos_ordenados = {1, 2, 3, 4, 201, 6, 6, 7, 1, 2, 4, 7,
                 1, 2, 4, 7, 9, 12, 15, 18, 1, 2, 4, 7, 9, 12, 15, 18, 1,
                 1, 2, 4, 7, 9, 12, 15, 18, 1, 2, 4, 7, 9, 12, 15, 18, 1,
                 1, 2, 4, 7, 9, 999, 15, 18, 1, 2, 4, 7, 9, 12, 15, 1,

@@ -35,7 +35,7 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        int[] datos = {8, 3,1,7,0,10,2};
+        int[] datos = {1,4,5,7,8,9};
 
         System.out.println("Arreglo original:");
         for (int dato : datos) {
