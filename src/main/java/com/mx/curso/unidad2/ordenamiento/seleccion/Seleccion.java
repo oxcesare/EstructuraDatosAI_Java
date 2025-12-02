@@ -17,7 +17,6 @@ public class Seleccion {
                     min_idx = j;
                 }
             }
-
             // Intercambiar el elemento más pequeño con el primer elemento de la sublista no ordenada
             int temp = arr[min_idx];
             arr[min_idx] = arr[i];
@@ -26,7 +25,7 @@ public class Seleccion {
     }
 
     public static void main(String[] args) {
-        int[] datos = {8,2,4,1,3};
+        int[] datos = {12, 3, 18, 1, 9};
 
         System.out.println("Arreglo original:");
         System.out.println(Arrays.toString(datos));

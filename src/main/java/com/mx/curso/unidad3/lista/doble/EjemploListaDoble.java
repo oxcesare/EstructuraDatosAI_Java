@@ -14,7 +14,7 @@ public class EjemploListaDoble {
         System.out.println("Recorrido hacia adelante:");
         miLista.imprimirHaciaAdelante(); // Salida: 10 <-> 20 <-> 30 <-> null
 
-        System.out.println("\nRecorrido hacia atrás:");
+        System.out.println("\nRecorrido hacia atras:");
         miLista.imprimirHaciaAtras(); // Salida: 30 <-> 20 <-> 10 <-> null
     }
 }

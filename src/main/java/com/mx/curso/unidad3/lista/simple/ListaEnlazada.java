@@ -3,6 +3,7 @@ package com.mx.curso.unidad3.lista.simple;
  * Clase que gestiona la lista simplemente enlazada.
  */
 class ListaEnlazada {
+
     // Puntero a la cabeza (primer nodo) de la lista
     Nodo cabeza;
 

@@ -3,22 +3,21 @@ package com.mx.curso.poo;
 public class Alumno {
 
     private String matricula;
+    private String nombre;
 
+    public Alumno(){
+        System.out.println("Alumno creado");
+    }
     public void incripcionCurso(){
-        System.out.println("El alumno esta inscrito en el curso de Estructura de datos");
+        System.out.println("El alumno se ha inscrito al curso");
     }
-
-    public String getMatricula() {
-        return matricula;
+    public void inscripcionTaller(){
+        System.out.println("Alumno inscrito al taller de Base de datos");
     }
-
-    public static void main(String[] args) {
-        Alumno alumno = new Alumno();
-        alumno.matricula="A12345";
-        alumno.incripcionCurso();
-        System.out.println("Matricula del alumno: " + alumno.getMatricula());
-
-        Numpy.multiplica(5,7);
-
+    public double pagoMensualidad(){
+        return 1500.00;
+    }
+    public int calcularHorasEstudio(int horasPorDia, int diasSemana){
+        return horasPorDia * diasSemana;
     }
 }

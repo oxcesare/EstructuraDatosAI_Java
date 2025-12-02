@@ -1,6 +1,7 @@
 package com.mx.curso.unidad3.pila.lista;
 
 public class PilaListaEnlazada {
+
     // La 'cabeza' de la lista enlazada es la 'cima' de la pila
     private Nodo cima;
 
@@ -12,6 +13,7 @@ public class PilaListaEnlazada {
      * PUSH: Agrega un nuevo nodo al inicio de la lista (cima de la pila) (O(1)).
      */
     public void push(int dato) {
+
         Nodo nuevoNodo = new Nodo(dato);
 
         // 1. El nuevo nodo apunta a la cima actual
@@ -49,7 +51,7 @@ public class PilaListaEnlazada {
     }
 
     /**
-     * Verifica si la pila está vacía (O(1)).
+     * Verifica si la pila esta vacia (O(1)).
      */
     public boolean isEmpty() {
         return cima == null;
@@ -66,10 +68,10 @@ public class PilaListaEnlazada {
 
         miPila.pop(); // Sale 200
 
-        System.out.println("Cima actual después de 1 pop: " + miPila.peek()); // 100
+        System.out.println("Cima actual despues de 1 pop: " + miPila.peek()); // 100
 
         miPila.pop(); // Sale 100
 
-        System.out.println("¿La pila está vacía? " + miPila.isEmpty()); // true
+        System.out.println("¿La pila esta vacia? " + miPila.isEmpty()); // true
     }
 }

@@ -71,7 +71,7 @@ public class Mezcla {
     }
 
     public static void main(String[] args) {
-        int[] datos = {4,8,1,9};
+        int[] datos = {4,9,11,3,7,10};
 
         System.out.println("Arreglo original:");
         for (int dato : datos) {
