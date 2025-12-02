@@ -36,3 +36,10 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Ignorar configuraciones de IntelliJ IDEA
+.idea/
+
+# Ignorar carpetas de compilación (si aplica)
+target/
+build/
