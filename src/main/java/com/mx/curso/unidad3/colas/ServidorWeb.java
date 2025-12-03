@@ -23,5 +23,7 @@ public class ServidorWeb {
             String usuarioAtendido = colaUsuarios.poll();
             System.out.println("Atendiendo a: " + usuarioAtendido);
         }
+        //Imprimir estado de la cola despues de atender a todos
+        System.out.println("Cola despues de atender a todos los usuarios: " + colaUsuarios);
     }
 }

@@ -21,8 +21,6 @@ j
 :src/main/java/com/mx/curso/unidad1/arreglos/Arreglo02.java,4\9\492e24873d0362ad7517c6a837ec58839dae1086
 u
 Esrc/main/java/com/mx/curso/unidad1/arreglos/Ejercicio_Arrreglo01.java,4\c\4c7fce4a1ca0a4bd4e5b3ddb8428a39e4c158ce2
-k
-;src/main/java/com/mx/curso/unidad3/lista/circular/Main.java,e\0\e095949e29c58bd464926723f7c2b3274cfc1069
 l
 <src/main/java/com/mx/curso/unidad1/algoritmos/Triangulo.java,1\d\1d0c44b3271186367a0fa7b5b67bb91226ce86a4
 ‡
@@ -31,10 +29,6 @@ j
 :src/main/java/com/mx/curso/unidad2/FibonacciRecursivo.java,1\f\1f721acd44cda8a87d7fa2834a0df85dca96014d
 i
 9src/main/java/com/mx/curso/unidad2/pilas/EjemploPila.java,2\5\25411b69c7c1b3ec015dfef9b5a6dce89e82700f
-i
-9src/main/java/com/mx/curso/unidad3/colas/EjemploCola.java,b\8\b8dac818dc5837f8597ce3a5ede419403979a63b
-i
-9src/main/java/com/mx/curso/unidad3/colas/ServidorWeb.java,3\d\3dfd4dbfa544fb45b700571449e5b14966f67ec0
 d
 4src/main/java/com/mx/curso/unidad4/EjemploArbol.java,a\2\a24970117fba3cc38b0657734050ee2b9e76f78f
 j
