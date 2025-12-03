@@ -1,0 +1,7 @@
+
+f	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôŸÊ¥
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„Íÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Üç±¸ÿÿÿÿÿ
+h
+java:S1128"RRemove this unused import 'com.mx.curso.unidad2.busqueda.binaria.BusquedaBinaria'.(ÍÃ

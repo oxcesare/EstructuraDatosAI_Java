@@ -1,0 +1,6 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¸•¼õ8÷æêò§3
+k
+java:S32523"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(–îşáùÿÿÿÿ8™îõò§3
+T
+java:S1128"7Remove this unused import 'java.awt.event.ActionEvent'.(Úù“‘8ÕÉü“¨3
