@@ -52,7 +52,7 @@ public class SimulacionDFS {
         pila.mostrar();
 
         // Fin: Pila vacía (continúa exploración desde E)
-        System.out.println("Fin: Pila vacia (continua exploración desde E)");
+        System.out.println("Fin: Pila vacia (continua exploracion desde E)");
 
     }
 }
