@@ -7,14 +7,16 @@ public class Demostracion {
 
         // Los datos se insertan en el orden: A, B, C, D, E, F, G
         tree.insert("A");
-        tree.insert("B"); // Hijo izquierdo de A
-        tree.insert("C"); // Hijo derecho de A
-        tree.insert("D"); // Hijo izquierdo de B
-        tree.insert("E"); // Hijo derecho de B
-        tree.insert("F"); // Hijo izquierdo de C
-        tree.insert("G"); // Hijo derecho de C
+        tree.insert("B");
+        tree.insert("C");
+        tree.insert("D");
+        tree.insert("E");
+        tree.insert("F");
+        tree.insert("G");
+        tree.insert("H");
+        tree.insert("I");
 
-        System.out.println("Árbol Binario Genérico construido.");
+        System.out.println("Arbol Binario Generico construido.");
 
         // El recorrido por niveles mostrará los nodos en el orden de inserción: A B C D E F G
         tree.traverseLevelOrder();

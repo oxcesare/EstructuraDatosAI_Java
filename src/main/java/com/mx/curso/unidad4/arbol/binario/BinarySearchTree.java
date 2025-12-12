@@ -2,23 +2,17 @@ package com.mx.curso.unidad4.arbol.binario;
 
 public class BinarySearchTree {
 
-    // La raíz es el punto de entrada al árbol
     private Node root;
 
     public BinarySearchTree() {
         this.root = null;
     }
 
-    /**
-     * Llama al método recursivo para insertar un nuevo valor.
-     */
     public void insert(int data) {
         this.root = insertRecursive(root, data);
     }
 
-    /**
-     * Método recursivo para insertar un nodo
-     */
+
     private Node insertRecursive(Node current, int data) {
         // Caso Base 1: Si el nodo actual es null, hemos encontrado la posición.
         if (current == null) {
@@ -38,28 +32,19 @@ public class BinarySearchTree {
         return current;
     }
 
-    // ----------------------------------------------------------------
-    // Recorridos del Árbol (Demostrando Recursividad)
-    // ----------------------------------------------------------------
 
-    /**
-     * Llama al método recursivo para el recorrido In-Order (Ordenado).
-     */
     public void traverseInOrder() {
         System.out.print("In-Order (Ordenado): ");
         traverseInOrderRecursive(root);
         System.out.println();
     }
 
-    /**
-     * Recorrido In-Order: Izquierda -> Raíz -> Derecha.
-     * El resultado es la impresión de los nodos en orden ascendente.
-     */
+
     private void traverseInOrderRecursive(Node node) {
         if (node != null) {
-            traverseInOrderRecursive(node.left);  // 1. Ir a la izquierda
-            System.out.print(node.data + " ");   // 2. Procesar la raíz
-            traverseInOrderRecursive(node.right); // 3. Ir a la derecha
+            traverseInOrderRecursive(node.left);
+            System.out.print(node.data + " ");
+            traverseInOrderRecursive(node.right);
         }
     }
 }
