@@ -16,7 +16,7 @@ class Nodo {
 public class ArbolBinarioBusquedaPostorden {
     Nodo raiz;
 
-    ArbolBinarioBusquedaPostorden() {
+    public ArbolBinarioBusquedaPostorden() {
         raiz = null;
     }
 
@@ -27,7 +27,7 @@ public class ArbolBinarioBusquedaPostorden {
     /**
      * Método público que inicia la inserción desde la raíz.
      */
-    void insertar(int valor) {
+    public void insertar(int valor) {
         raiz = insertarRecursivo(raiz, valor);
     }
 
@@ -55,7 +55,7 @@ public class ArbolBinarioBusquedaPostorden {
     /**
      * Recorrido Postorden: Izquierda -> Derecha -> Raíz (Imprimir)
      */
-    void recorrerPostorden(Nodo nodo) {
+    public void recorrerPostorden(Nodo nodo) {
         if (nodo != null) {
             // 1. Recorre el subárbol izquierdo
             recorrerPostorden(nodo.izquierda);
@@ -69,18 +69,17 @@ public class ArbolBinarioBusquedaPostorden {
     }
 
     // Método público para iniciar el recorrido desde la raíz
-    void recorrido() {
+    public void recorrido() {
         recorrerPostorden(raiz);
     }
 
     public static void main(String[] args) {
         ArbolBinarioBusquedaPostorden arbol = new ArbolBinarioBusquedaPostorden();
 
-        // Valores de entrada desordenados, igual que el ejemplo anterior:
-        // {10, 5, 15, 2, 7, 12, 18, 1, 6}
-        int[] datosDesordenados = {10, 5, 15, 2, 7, 12, 18, 1, 6};
+        // Valores de entrada desordenados, igual que el ejemplo anterior
+        int[] datosDesordenados = {90, 50, 95, 30, 70, 92, 98, 15, 65, 80};
 
-        System.out.println("Insertando datos desordenados: [10, 5, 15, 2, 7, 12, 18, 1, 6]");
+        System.out.println("Insertando datosDesordenados = {90, 50, 95, 30, 70, 92, 98, 15, 65, 80};");
 
         // El árbol se construye de forma auto-organizada (BST)
         for (int dato : datosDesordenados) {

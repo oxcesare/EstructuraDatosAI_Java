@@ -16,7 +16,7 @@ class Nodo {
 public class ArbolBinarioBusquedaInorden {
     Nodo raiz;
 
-    ArbolBinarioBusquedaInorden() {
+    public ArbolBinarioBusquedaInorden() {
         raiz = null;
     }
 
@@ -27,7 +27,7 @@ public class ArbolBinarioBusquedaInorden {
     /**
      * Método público que inicia la inserción desde la raíz.
      */
-    void insertar(int valor) {
+    public void insertar(int valor) {
         raiz = insertarRecursivo(raiz, valor);
     }
 
@@ -62,7 +62,7 @@ public class ArbolBinarioBusquedaInorden {
     /**
      * Recorrido Inorden: Izquierda -> Raíz (Imprimir) -> Derecha
      */
-    void recorrerInorden(Nodo nodo) {
+    public void recorrerInorden(Nodo nodo) {
         if (nodo != null) {
             // 1. Izquierda
             recorrerInorden(nodo.izquierda);
@@ -76,7 +76,7 @@ public class ArbolBinarioBusquedaInorden {
     }
 
     // Método público para iniciar el recorrido desde la raíz
-    void recorrido() {
+    public void recorrido() {
         recorrerInorden(raiz);
     }
 
@@ -84,7 +84,7 @@ public class ArbolBinarioBusquedaInorden {
         ArbolBinarioBusquedaInorden arbol = new ArbolBinarioBusquedaInorden();
 
         // 1. Definimos un conjunto de valores completamente DESORDENADO.
-        int[] datosDesordenados = {10, 5, 15, 2, 7, 12, 18, 1, 6};
+        int[] datosDesordenados = {90, 50, 95, 30, 70, 92, 98, 15, 65, 80};
 
         for (int dato : datosDesordenados) {
             arbol.insertar(dato);

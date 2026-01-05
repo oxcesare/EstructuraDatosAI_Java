@@ -1,8 +1,6 @@
 
 i
 9src/main/java/com/mx/curso/unidad1/arreglos/Arreglo2.java,0\7\07264607b458f47bea3edba0ab3623d70dbf1df5
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 j
 :src/main/java/com/mx/curso/unidad1/mapas/CreacionMapa.java,d\c\dc55489c5fc8d4b89356331b9d4a41994efd1392
 p
@@ -43,8 +41,6 @@ m
 =src/main/java/com/mx/curso/unidad3/listas/TestListaDoble.java,4\6\4641bd4996c5ac48362a9d17c2c665bfee3efafa
 n
 >src/main/java/com/mx/curso/unidad4/grafos/GrafoAdyacencia.java,f\6\f6a4f2b65266a9ffb7a1a8aefb82880e48971129
-k
-;src/main/java/com/mx/curso/unidad4/grafos/Demostracion.java,b\e\be219f00bca79755b577596acdd5c77984c745a4
 p
 @src/main/java/com/mx/curso/unidad1/matriz/sensores/Sensores.java,9\b\9be36f6e2012e6b3c45c90fa8e1b8c28aadf704d
 i
@@ -55,3 +51,21 @@ Ysrc/main/java/com/mx/curso/unidad1/matriz/calificaciones/CalificacionesEstudian
 Wsrc/main/java/com/mx/curso/unidad1/matriz/calificaciones/CalificacionesEstudiantes.java,a\7\a71a5be06e4fcd0af05e8d16c21910a7cd5fd4ef
 {
 Ksrc/main/java/com/mx/curso/unidad1/matriz/intensidades/IntensidadesLuz.java,5\8\58950b57660dc6c6d1be395e50e9edeb2a573c6e
+k
+;src/main/java/com/mx/curso/unidad4/arbol/busqueda/Node.java,6\8\68d404b2bf966213e4eab8bbfac3ac2be27c2ebc
+q
+Asrc/main/java/com/mx/curso/unidad4/arbol/busqueda/BinaryTree.java,0\9\0942a3ea3ca9dc0e327f8499f987b3121581eff3
+v
+Fsrc/main/java/com/mx/curso/unidad4/arbol/binario/BinarySearchTree.java,1\8\1863588488e4f2666f6991d8b1856de47cbb7e1a
+s
+Csrc/main/java/com/mx/curso/unidad4/arbol/busqueda/Demostracion.java,2\e\2e015a3d72b87a2a083495a63c8b77db1b4d8789
+j
+:src/main/java/com/mx/curso/unidad4/arbol/binario/Main.java,3\9\3990c891625214935d8a2d18a8c22f3684a8e7c1
+t
+Dsrc/main/java/com/mx/curso/unidad4/arbol/simple/ArbolBinarioBFS.java,e\8\e81322670c3e22ad88f000e15de98dfebe220aa9
+j
+:src/main/java/com/mx/curso/unidad4/arbol/binario/Node.java,8\7\87ff59cd439999cb732b56fc03559d7d60239182
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+k
+;src/main/java/com/mx/curso/unidad4/grafos/Demostracion.java,b\e\be219f00bca79755b577596acdd5c77984c745a4

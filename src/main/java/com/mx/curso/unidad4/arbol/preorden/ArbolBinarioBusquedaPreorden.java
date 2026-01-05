@@ -16,7 +16,7 @@ class Nodo {
 public class ArbolBinarioBusquedaPreorden {
     Nodo raiz;
 
-    ArbolBinarioBusquedaPreorden() {
+    public ArbolBinarioBusquedaPreorden() {
         raiz = null;
     }
 
@@ -27,7 +27,7 @@ public class ArbolBinarioBusquedaPreorden {
     /**
      * Método público que inicia la inserción desde la raíz.
      */
-    void insertar(int valor) {
+    public void insertar(int valor) {
         raiz = insertarRecursivo(raiz, valor);
     }
 
@@ -55,7 +55,7 @@ public class ArbolBinarioBusquedaPreorden {
     /**
      * Recorrido Preorden: Raíz (Imprimir) -> Izquierda -> Derecha
      */
-    void recorrerPreorden(Nodo nodo) {
+    public void recorrerPreorden(Nodo nodo) {
         if (nodo != null) {
             // 1. Visita la raíz (imprime el valor al inicio)
             System.out.print(nodo.valor + " ");
@@ -69,7 +69,7 @@ public class ArbolBinarioBusquedaPreorden {
     }
 
     // Método público para iniciar el recorrido desde la raíz
-    void recorrido() {
+    public void recorrido() {
         recorrerPreorden(raiz);
     }
 
@@ -77,7 +77,7 @@ public class ArbolBinarioBusquedaPreorden {
         ArbolBinarioBusquedaPreorden arbol = new ArbolBinarioBusquedaPreorden();
 
         // Valores de entrada desordenados:
-        int[] datosDesordenados = {1, 5, 17, 21, 7, 4, 99, 8, 6};
+        int[] datosDesordenados = {90, 50, 95, 30, 70, 92, 98, 15, 65, 80};
 
 
         // El árbol se construye de forma auto-organizada (BST)
